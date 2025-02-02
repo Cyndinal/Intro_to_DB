@@ -10,7 +10,7 @@ SELECT
       price ,
       publication_date
 FROM
-    alx_book_store.Books
+    alx_book_store.books
 WHERE
     TABLE_SCHEMA = 'alx_book_store'
-  AND TABLE_NAME = 'Books';
+  AND TABLE_NAME = 'books';
