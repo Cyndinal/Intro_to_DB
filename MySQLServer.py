@@ -19,7 +19,7 @@ try:
     #     print(row)
     # else:
         # print("Database 'alx_book_store' created successfully!")
-except ConnectionError as e:
+except mysql.connector.Error as e:
     print("Database 'alx_book_store' created successfully!", e)
 
 
