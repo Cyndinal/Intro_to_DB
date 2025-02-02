@@ -11,7 +11,7 @@ CREATE TABLE Authors(
 );
 
 
-CREATE TABLE books(
+CREATE TABLE Books(
                       book_id INT PRIMARY KEY,
                       title VARCHAR(130),
                       author_id INT ,
@@ -39,9 +39,9 @@ CREATE TABLE Orders(
 CREATE TABLE Order_Details(
                               orderdetailid INT PRIMARY KEY,
                               order_id INT ,
-                              FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+                              FOREIGN KEY(order_id) REFERENCES Orders(order_id),
                               book_id INT,
-                              FOREIGN KEY (book_id) REFERENCES books(book_id),
+                              FOREIGN KEY(book_id) REFERENCES Books(book_id),
                               quantity DOUBLE
 );
 
