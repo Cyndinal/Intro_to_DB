@@ -11,7 +11,7 @@ CREATE TABLE Authors(
 );
 
 
-CREATE TABLE Books(
+CREATE TABLE books(
                       book_id INT PRIMARY KEY,
                       title VARCHAR(130),
                       author_id INT ,
