@@ -7,7 +7,7 @@
 
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
-INSERT INTO alx_book_store.customer(customer_id, customer_name, email,address) VALUES(
+INSERT INTO customer(customer_id, customer_name, email,address) VALUES(
                                                                                1,
                                                                                "Cole Baidoo",
                                                                                "cbaidoo@sandtech.com",
